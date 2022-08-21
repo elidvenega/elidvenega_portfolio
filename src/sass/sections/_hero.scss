@@ -23,21 +23,10 @@
 
   // background: url("/src/assets/web-development.jpg") no-repeat center center/cover;
 
-  // background-position: center;
-  // background-size: cover;
-
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
 
-  /* CSSn used for dark background */
-  // .layer {
-  //   background: #0c0404;
-  //   height: 100%;
-  //   opacity: 0.6;
-  //   position: absolute;
-  //   width: 100%;
-  // }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
