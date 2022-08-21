@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: #fff;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,19 +14,22 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  position: relative;
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  // background: url("/src/assets/web.jpg");
+  // background: url("/src/assets/web-development.jpg") no-repeat center center/cover;
+
   // background-position: center;
   // background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
+
 
   .hero-title {
     font-size: 5.6rem;
@@ -66,3 +69,11 @@
     }
   }
 }
+
+// .layer {
+//   background: #0c0404;
+//   height: 100%;
+//   opacity: 0.6;
+//   position: absolute;
+//   width: 100%;
+// }
