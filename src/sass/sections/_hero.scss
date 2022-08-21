@@ -30,7 +30,14 @@
     padding: 0rem $default-font-size;
   }
 
-
+  /* CSSn used for dark background */
+  // .layer {
+  //   background: #0c0404;
+  //   height: 100%;
+  //   opacity: 0.6;
+  //   position: absolute;
+  //   width: 100%;
+  // }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
@@ -69,11 +76,3 @@
     }
   }
 }
-
-// .layer {
-//   background: #0c0404;
-//   height: 100%;
-//   opacity: 0.6;
-//   position: absolute;
-//   width: 100%;
-// }
