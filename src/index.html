@@ -28,25 +28,45 @@
   </head>
 
   <body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">Elid Venega</div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+      </div>
+    </ul>
+  </nav>
+
+
     <div id="top"></div>
 
     <!-- **** Hero Section **** -->
-    <section id="hero" class="jumbotron">
+    <div id="hero" class="jumbotron">
       <div id="layer"></div>
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Elid Venega</span>
+          Hi, my name is Elid Venega
           <br />
           I'm a Front End Developer.
         </h1>
         <p class="hero-cta load-hidden">
-          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#info">
+          <a rel="noreferrer" class="cta-btn cta-btn--resume" href="#info">
             Know more
             </a> 
         </p>
         
       </div>
-    </section>
+    </div>
     <!-- /END Hero Section -->
    
     <!-- **** About Section **** -->
@@ -108,66 +128,66 @@
     </section>
     <!-- /END About Section -->
 
-    <!-- **** Projects Section **** -->
+    <!-- **** Portfolio Section **** -->
+    
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Portfolio</h2>
 
-          <!-- Notice: each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Euphony Records</h3>
-                <div>
-                  <p class="mb-4">
-                    Euphony Records a project build using React, React Router
-                    and CSS.
-                  </p>
-                </div>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--hero"
-                  href="https://euphony-records-store.netlify.app/"
-                >
-                  See Live
-                </a>
-                <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main"
-                  href="https://github.com/elidvenega/euphony-reacords-react"
-                >
-                  Source Code
-                </a>
+         <!-- 1st project -->
+         <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Jacks Bar</h3>
+              <div>
+                <p class="mb-4">
+                  A bar landing page built using HTML,CSS and SCSS and a bit of Javascript.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <a
-                  rel="noreferrer"
-                  href="https://euphony-records-store.netlify.app/"
-                  target="_blank"
-                >
-                  <div
-                    data-tilt
-                    data-tilt-max="4"
-                    data-tilt-glare="true"
-                    data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
-                  >
-                    <img
-                      alt="Project Image"
-                      class="img-fluid"
-                      src="assets/euphony.jpg"
-                    />
-                  </div>
-                </a>
-              </div>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn cta-btn--hero"
+                href="https://elidvenega.github.io/jacks-bar/"
+              >
+                See Live
+              </a>
+              <a
+                rel="noreferrer"
+                target="_blank"
+                class="cta-btn text-color-main"
+                href="https://github.com/elidvenega/jacks-bar"
+              >
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- END Project -->
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a
+                rel="noreferrer"
+                href="https://elidvenega.github.io/jacks-bar/"
+                target="_blank"
+              >
+                <div
+                  data-tilt
+                  data-tilt-max="4"
+                  data-tilt-glare="true"
+                  data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt"
+                >
+                  <img
+                    alt="Project Image"
+                    class="img-fluid"
+                    src="assets/jacks-bar.jpg"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
           <!-- 2nd project -->
           <div class="row">
@@ -175,8 +195,9 @@
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Bricks Estate API Project</h3>
                 <div>
+          
                   <p class="mb-4">
-                    An API project using Next.js
+                   An API project using Next.js
                   </p>
                 </div>
                 <a
@@ -228,8 +249,9 @@
               <div class="project-wrapper__text load-hidden">
                 <h3 class="project-wrapper__text-title">Tic Tac Toe</h3>
                 <div>
+              
                   <p class="mb-4">
-                    Tic Tac Toe game build using React and hooks.
+                   Tic Tac Toe game build using React and hooks.
                   </p>
                 </div>
                 <a
@@ -275,22 +297,24 @@
             </div>
           </div>
           <!-- /END Project -->
-
-           <!-- 4th project -->
+          
+           <!-- 4th Project -->
            <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Jacks Bar</h3>
+                <h3 class="project-wrapper__text-title">Euphony Records</h3>
                 <div>
+                 
                   <p class="mb-4">
-                    A bar landing page built using HTML,CSS and SCSS and a bit of Javascript.
+                    Euphony Records a project build using React, React Router
+                    and CSS.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="https://elidvenega.github.io/jacks-bar/"
+                  href="https://euphony-records-store.netlify.app/"
                 >
                   See Live
                 </a>
@@ -298,7 +322,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="https://github.com/elidvenega/jacks-bar"
+                  href="https://github.com/elidvenega/euphony-reacords-react"
                 >
                   Source Code
                 </a>
@@ -308,7 +332,7 @@
               <div class="project-wrapper__image load-hidden">
                 <a
                   rel="noreferrer"
-                  href="https://elidvenega.github.io/jacks-bar/"
+                  href="https://euphony-records-store.netlify.app/"
                   target="_blank"
                 >
                   <div
@@ -321,14 +345,16 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/jacks-bar.jpg"
+                      src="assets/euphony.jpg"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <!-- /END Project -->
+          <!-- END Project -->
+
+           
             <!-- 5th project -->
             <div class="row">
               <div class="col-lg-4 col-sm-12">
@@ -382,7 +408,7 @@
               </div>
             </div>
             <!-- /END Project -->
-          <!-- 7th project -->
+          <!-- 6th project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
@@ -436,7 +462,7 @@
             </div>
           </div>
           <!-- /END Project -->
-            <!-- 8th project -->
+            <!-- 7th project -->
             <div class="row">
               <div class="col-lg-4 col-sm-12">
                 <div class="project-wrapper__text load-hidden">
@@ -450,7 +476,7 @@
                     rel="noreferrer"
                     target="_blank"
                     class="cta-btn cta-btn--hero"
-                    href="https://sanity-ecommerce-qoqgd4ygm-elidvenega.vercel.app/""
+                    href="https://sanity-ecommerce-qoqgd4ygm-elidvenega.vercel.app/"
                   >
                     See Live
                   </a>
@@ -489,8 +515,62 @@
               </div>
             </div>
             <!-- /END Project -->
+             <!-- 8th project -->
+             <div class="row">
+              <div class="col-lg-4 col-sm-12">
+                <div class="project-wrapper__text load-hidden">
+                  <h3 class="project-wrapper__text-title">ZTM Open Source</h3>
+                  <div>
+                    <p class="mb-4">
+                      This is a open source project for ZTM students.
+                    </p>
+                  </div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://zero-to-mastery.github.io/HTML-project/""
+                  >
+                    See Live
+                  </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main"
+                    href="https://github.com/elidvenega/HTML-project"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <div class="project-wrapper__image load-hidden">
+                  <a
+                    rel="noreferrer"
+                    href="https://zero-to-mastery.github.io/HTML-project/"
+                    target="_blank"
+                  >
+                    <div
+                      data-tilt
+                      data-tilt-max="4"
+                      data-tilt-glare="true"
+                      data-tilt-max-glare="0.5"
+                      class="thumbnail rounded js-tilt"
+                    >
+                      <img
+                        alt="Project Image"
+                        class="img-fluid"
+                        src="assets/ztm.jpg"
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- /END Project -->
         </div>
       </div>
+      
     </section>
     <!-- /END Projects Section -->
 
