@@ -1,36 +1,125 @@
+// Navigation
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+/* LOGO */
+.logo {
+  font-size: 1.5rem;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.menu li:hover {
+  background-color: var(--btn-dark-two);
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: var(--primary-color);
+  padding: 1em 0;
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: var(--btn-dark-two);
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
 #hero {
-  min-height: 100vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  // // background: $white-color;
   font-weight: 400;
-  color: $primary-color;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  
 
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
   // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  // background: url("/src/assets/web-development.jpg") no-repeat center center/cover;
+  background: url("/src/assets/laptop.jpg") no-repeat center center/cover;
+  // z-index: 1;
 
-  @include respond(phone) {
-    padding: 0rem $default-font-size;
-  }
+  // @include respond(phone) {
+  //   padding: 0rem $default-font-size;
+  // }
 
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    z-index: 2;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -62,5 +151,54 @@
         font-size: 2rem;
       }
     }
+  }
+}
+
+// #layer {
+//   width: 100%;
+//   height: 100%;
+//   background: #000;
+//   opacity: 0.6;
+//   overflow: hidden;
+//   position: absolute;
+// }
+
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: $primary-color;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu li:hover {
+    display: inline-block;
+    background-color: $primary-color;
+    transition: 0.3s ease;
+  }
+
+  .menu li + li {
+    margin-top: 12px;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .dropdown {
+    left: 50%;
+    top: 30px;
+    transform: translateX(35%);
+  }
+
+  .dropdown li:hover {
+    background-color: #4c9e9e;
   }
 }

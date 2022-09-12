@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Tiro+Gurmukhi&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 h1 {
   font-weight: 700;
@@ -6,8 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Tiro Gurmukhi", serif;
+  font-family: 'Oswald', sans-serif;
   font-size: $default-font-size;
 }
 
