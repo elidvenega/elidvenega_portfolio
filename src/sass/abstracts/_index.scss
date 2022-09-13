@@ -1,2 +1,5 @@
 @forward "./mixins";
 @forward "./variables";
+
+/* for this I imported mix and variables using @forward then using @use 
+   in files that need it */
