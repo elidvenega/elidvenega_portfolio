@@ -1,7 +1,7 @@
 @use "./sass/vendors/bootstrap.scss";
 
-@use "./sass/abstracts/mixins";
-// @use "./sass/abstracts/variables";
+// @use "./sass/abstracts/mixins";
+// @use "./sass/abstracts/index" as *;
 @use "./sass/abstracts/helpers";
 
 @use "./sass/base/base";
