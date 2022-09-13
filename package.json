@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobidev/simplefolio"
+    "url": "git+https://github.com/elidvenega/elidvenega_portfolio"
   },
   "keywords": [],
   "author": "Elid Venega",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobidev/simplefolio/issues"
+    "url": "https://github.com/elidvenega/elidvenega_portfolio/issues"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
