@@ -1,0 +1,103 @@
+@use "../abstracts/index" as *;
+// Navigation
+.navbar {
+  align-items: center;
+  background-color: $primary-color;
+  color: $white-color;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+//   position: fixed;
+//   width: 100%;
+}
+
+.nav-links a {
+  color: $white-color;
+}
+
+/* LOGO */
+.logo {
+  font-size: 1.5rem;
+}
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.menu li:hover {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: $primary-color;
+  padding: 1em 0;
+  position: absolute;
+  /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: $secondary-color;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* CHECKBOX HACK */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
