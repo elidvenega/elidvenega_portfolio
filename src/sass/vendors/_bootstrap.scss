@@ -1,1 +1,3 @@
-@import "~bootstrap/scss/bootstrap";
+// @use "~bootstrap/scss/bootstrap" as *;
+
+@forward  "../../../node_modules/bootstrap/scss/bootstrap";
