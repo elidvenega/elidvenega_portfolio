@@ -5,7 +5,7 @@
   "description": "Portfolio",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "dev": "parcel",
     "build": "parcel build"
   },
   "repository": {
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
-    "bootstrap": "^5.2.1",
+    "bootstrap": "^5.2.2",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.7.2"
