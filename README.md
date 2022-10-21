@@ -9,7 +9,7 @@ display my projects and current skills.
 
 ## Demo
 
-elidvenega.com
+https://www.elidvenega.com/
 
 ## Installation
 
