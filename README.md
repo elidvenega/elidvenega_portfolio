@@ -25,7 +25,7 @@ https://www.elidvenega.com/
 ```
  cd elidvenega_portfolio
  npm install
- npm start
+ npm run dev
 
 ```
 

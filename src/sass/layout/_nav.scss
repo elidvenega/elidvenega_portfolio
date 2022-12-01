@@ -74,16 +74,23 @@
     justify-content: center;
     align-items: center;
   }
+  
+  // .menu-button {
+  //   height: 7px;
+  //   width: 40px;
+  // }
+
   .menu-button,
   .menu-button::before,
   .menu-button::after {
     display: block;
     background-color: $white-color;
-    position: absolute;
-    height: 7px;
-    width: 40px;
-    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
+    height: 5px;
+    width: 45px;
+    position: absolute;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+   
   }
 
   .menu-button::before {

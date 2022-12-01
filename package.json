@@ -5,7 +5,7 @@
   "description": "Portfolio",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
+    "dev": "parcel",
     "build": "parcel build"
   },
   "repository": {
