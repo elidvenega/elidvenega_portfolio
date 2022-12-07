@@ -2,10 +2,10 @@
   "name": "elidvenega_portfolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "Portfolio",
+  "description": "Portfolio for web development",
   "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/index.html --port 3000",
     "build": "parcel build src/index.html"
   },
   "repository": {
