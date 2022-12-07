@@ -19,7 +19,7 @@ https://www.elidvenega.com/
  git clone https://github.com/elidvenega/elidvenega_portfolio.git
  # Remove the current origin repository
  git remote remove origin
-cd elidvenega_portfolio
+ cd elidvenega_portfolio
 
 ```
 
