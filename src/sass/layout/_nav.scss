@@ -62,6 +62,16 @@
   .menu-button-container {
     display: flex;
   }
+  .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 50px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
   .menu > li {
     display: flex;
@@ -75,11 +85,6 @@
   .menu > li:not(:last-child) {
     border-bottom: 1px solid $dark-grey;
   }
-
-  .menu > li:hover {
-    background: $primary-color;
-  }
-
   .menu-button,
   .menu-button::before,
   .menu-button::after {
