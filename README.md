@@ -17,7 +17,9 @@ https://www.elidvenega.com/
 
 ```bash
  git clone https://github.com/elidvenega/elidvenega_portfolio.git
+
  # Remove the current origin repository
+
  git remote remove origin
  cd elidvenega_portfolio
 
@@ -25,8 +27,8 @@ https://www.elidvenega.com/
 
 ```bash
  npm install
+ # It will be on localhost:3000
  npm run dev
- It will be on localhost:3000
 ```
 
 ## Acknowledgements

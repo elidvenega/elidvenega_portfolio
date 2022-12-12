@@ -1,6 +1,6 @@
 {
   "name": "elidvenega_portfolio",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "private": "true",
   "description": "Portfolio for web development",
   "source": "src/index.html",
