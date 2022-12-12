@@ -17,9 +17,7 @@ https://www.elidvenega.com/
 
 ```bash
  git clone https://github.com/elidvenega/elidvenega_portfolio.git
-
  # Remove the current origin repository
-
  git remote remove origin
  cd elidvenega_portfolio
 
