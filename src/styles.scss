@@ -5,11 +5,11 @@
 @use "./sass/base/base";
 @use "./sass/base/typography";
 
+@use"./sass/components/nav";
 @use "./sass/components/buttons";
 
 @use "./sass/layout/footer";
 @use "./sass/layout/sections";
-@use"./sass/layout/nav";
 
 @use "./sass/sections/about";
 @use "./sass/sections/contact";

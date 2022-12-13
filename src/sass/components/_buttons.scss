@@ -77,28 +77,7 @@
   color: $white-color;
   border: 2px solid $white-color;
   margin-bottom: 10rem;
-
-  &::after {
-    background: $white-color;
-  }
-
-  &:hover {
-    color: $secondary-color;
-    text-decoration: none;
-
-    &::after {
-      width: 100%;
-    }
-  }
-}
-
-/* Arrow Button */
-.up i {
-  color: #272727;
-}
-
-@media (max-width: 650px) {
-  .cta-btn--resume {
+  @include respond(phone) {
     color: $secondary-color;
     background: $primary-color;
     border: transparent;
@@ -118,4 +97,22 @@
       }
     }
   }
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+/* Arrow Button */
+.up i {
+  color: #272727;
 }
