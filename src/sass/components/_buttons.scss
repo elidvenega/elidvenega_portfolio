@@ -78,7 +78,7 @@
   border: 2px solid $white-color;
   margin-bottom: 10rem;
   @include respond(phone) {
-    color: $secondary-color;
+    color: $white-color;
     background: $primary-color;
     border: transparent;
     margin-bottom: 10rem;
