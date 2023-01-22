@@ -19,9 +19,9 @@
     "url": "https://github.com/elidvenega/elidvenega_portfolio/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
-    "parcel": "^2.8.2",
-    "prettier": "^2.8.2"
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "prettier": "^2.8.3"
   },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
