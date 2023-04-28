@@ -1,5 +1,11 @@
 @use "../abstracts/index" as *;
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
 .nav {
   display: flex;
   font-size: $default-font-size;
@@ -9,9 +15,9 @@
   color: $white-color;
   height: 6rem;
   padding: 1rem;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+  // position: sticky;
+  // top: 0;
+  // z-index: 2;
 }
 
 .nav a {
