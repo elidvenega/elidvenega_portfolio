@@ -15,9 +15,6 @@ header {
   color: $white-color;
   height: 6rem;
   padding: 1rem;
-  // position: sticky;
-  // top: 0;
-  // z-index: 2;
 }
 
 .nav a {
@@ -70,7 +67,7 @@ header {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 50px;
+    margin-top: 3rem;
     left: 0;
     flex-direction: column;
     width: 100vw;

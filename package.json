@@ -19,13 +19,13 @@
     "url": "https://github.com/elidvenega/elidvenega_portfolio/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.3",
-    "parcel": "^2.8.3",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
     "prettier": "^2.8.8"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.7",
-    "bootstrap": "^5.2.3",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.0",
     "jquery": "^3.7.0",
     "popper.js": "^1.16.1",
     "vanilla-tilt": "^1.8.0"
