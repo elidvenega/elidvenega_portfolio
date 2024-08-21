@@ -1,8 +1,8 @@
 @use "../abstracts/index" as *;
 // Section
+
 section {
   padding: 5rem 0rem;
-
   @include respond(phone) {
     border: none;
     padding-left: 1rem;
@@ -10,3 +10,7 @@ section {
   }
 }
 
+.blog-container {
+  margin: auto;
+  width: 65%;
+}
