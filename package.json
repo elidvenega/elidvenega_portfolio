@@ -19,8 +19,6 @@
     "url": "https://github.com/elidvenega/elidvenega_portfolio/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.15.4",
-    "parcel": "^2.15.4",
     "prettier": "^2.8.8"
   },
   "dependencies": {
